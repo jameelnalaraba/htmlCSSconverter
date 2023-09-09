@@ -1,0 +1,207 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.top{
+    padding-top: 20px;
+    background-color: rgb(10, 20, 110);
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+.ash {
+    display: inline;
+    padding-top: 50px;  
+    padding-left: 20px;
+    margin-block-end: 0px;
+}
+
+.currency{
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+
+.wallet{
+    display:block;
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+
+button{   
+    background-color: rgb(10, 20, 110);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+   
+}
+.reg:hover{
+    background-color: #025d04; /* Green */
+    color: white;
+}
+button:hover{
+    background-color: rgb(54, 62, 210);
+}
+.reg{ 
+    background-color: #4CAF50; /* Green */
+    position: relative;
+    left: 63%;
+}
+.sig{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 63%;
+}
+.search-bax{
+    float: right;
+   padding: 6px;
+   margin-top: 0px;
+   margin-right: 16px;
+   border: none;
+   border-radius: 10px;
+   font-size: 17px;
+}
+
+.intro-text{
+    display: inline;
+    position: relative;
+    left: 41%;
+    text-align: center;
+    font-size: larger;
+}
+
+.search-button{
+    margin-top: 20px;
+    background-color: rgb(46, 62, 231);;
+    position: relative;
+    left: 69%;
+}
+.search-button:hover{
+    background-color: #003b95;
+}
+
+.nav-buttons{
+    margin: 10px;
+   
+}
+
+.greenline-div{
+    background-color: #4CAF50;
+    height: 20px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.body-div{
+    background-color: #003b95;
+    height: 250px;
+    margin: 100px;
+    border-radius: 13px;
+}
+
+.figures{
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+
+.convert{
+    background-color: #003b95;
+    padding: 13px;
+    position: relative;
+    top: 52%;
+    left: 27px;
+}
+
+@media(max-width: 400px) {
+    /* Styles for phones */
+    .ash {
+        display: inline;
+        padding-top: 50px;
+        padding-left: 20px;
+        margin-block-end: 0px;
+        font-size: x-large;
+    }
+   
+  
+    .currency {
+        padding: 10px;
+        display: inline;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        font-size: large;
+    }
+    .button {
+        background-color: rgb(10, 20, 110);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        padding: 4px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+    }
+    .reg {
+        background-color: rgb(76, 175, 80);
+        position: relative;
+        left: 14.5%;
+    }
+    .sig {
+        background-color: cornflowerblue;
+        position: relative;
+        left: 82.5%;
+        margin-top: 6px;
+    }
+    .intro-text {
+        display: inline;
+        position: relative;
+        left: 10px;
+        text-align: center;
+        font-size: smaller;
+    }
+    .nav-buttons {
+        margin: 10px;
+        margin-top: 45px;
+    }
+
+    .search-button {
+        display: none;
+        margin-top: 0px;
+        background-color: rgb(46, 62, 231);
+        position: relative;
+        left: 80%;
+    }
+    .body-div {
+        background-color: rgba(0, 59, 149, 0.71);
+        height: 200px;
+        width: 100%;
+        margin: 0px;
+        border-radius: 13px;
+        padding-bottom: 65px;
+    }
+
+    .greenline-div {
+        background-color: rgb(76, 175, 80);
+        height: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+  }
